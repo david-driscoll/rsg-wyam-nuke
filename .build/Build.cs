@@ -57,13 +57,13 @@ class Build : NukeBuild
         .Executes(() =>
         {
             Wyam.Common.Tracing.Trace.AddListener(new NukeTraceListener());
+            Wyam.Common.Tracing.Trace.Level = SourceLevels.All;
             var engine = new Engine();
-            // engine.
             var configurator = new Configurator(engine);
             configurator.Recipe = new Wyam.Docs.Docs();
             configurator.Theme = "Samson";
             configurator.Configure("");
-            new Configuration2(engine);
+            new Configuration2(engine, this);
             engine.Execute();
         });
 
@@ -71,7 +71,7 @@ class Build : NukeBuild
 
 class Configuration2 : ConfigurationEngineBase
 {
-    public Configuration2(Engine engine) : base(engine)
+    public Configuration2(Engine engine, Build build) : base(engine)
     {
         Settings[DocsKeys.Title] = "Rocket Surgeons Guild";
         Settings[Keys.Host] = "rocketsurgeonsguild.github.io/";
@@ -80,23 +80,23 @@ class Configuration2 : ConfigurationEngineBase
         Settings[DocsKeys.IncludeDateInPostPath] = true;
         Settings[DocsKeys.BaseEditUrl] = "https://github.com/RocketSurgeonsGuild/rocketsurgeonsguild.github.io/blob/dev/input/";
 
-        Pipelines.InsertBefore(Docs.Code, "Package",
-             new ReadFiles("../pkgs/*.yml"),
+        Pipelines.InsertBefore(Docs.Code.Name, "Package",
+            new ReadFiles(NukeBuild.RootDirectory.ToString() + "/packages/*.yml"),
             new Yaml()
         );
 
         Pipelines.InsertAfter("Package", "PackageCategories",
-            new GroupByMany((ctx, _) => ctx.List<string>("Categories"),
+            new GroupByMany((doc, _) => doc.List<string>("Categories"),
                 new Documents("Package")
             ),
-            new Meta(Keys.WritePath, new FilePath("pkgs/" + Settings.String(Keys.GroupKey).ToLower().Replace(" ", "-") + "/index.html")),
+            new Meta(Keys.WritePath, (doc, _) => new FilePath("packages/" + doc.String(Keys.GroupKey).ToLower().Replace(" ", "-") + "/index.html")),
             new Meta(Keys.RelativeFilePath, (ctx, _) => ctx.FilePath(Keys.WritePath)),
             new OrderBy((ctx, _) => ctx.String(Keys.GroupKey))
         );
+
         Pipelines.Add("RenderPackage",
             new Documents("PackageCategories"),
-            new Razor()
-                .WithLayout("/_PackageLayout.cshtml"),
+            new Razor().WithLayout("/_PackageLayout.cshtml"),
             new WriteFiles()
         );
     }
