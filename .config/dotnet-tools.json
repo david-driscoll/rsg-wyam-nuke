@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "nuke.globaltool": {
+      "version": "0.22.2",
+      "commands": [
+        "nuke"
+      ]
+    },
+    "wyam.tool": {
+      "version": "2.2.9",
+      "commands": [
+        "wyam"
+      ]
+    }
+  }
+}
