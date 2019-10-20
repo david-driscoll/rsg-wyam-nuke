@@ -1,0 +1,14 @@
+Name: Rocket.Surgery.Extensions.Logging.Abstractions
+NuGet: Rocket.Surgery.Extensions.Logging.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Logging.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds support for adding logging to the hosted application by convention.
+Categories:
+- Abstractions
+- Conventions
+- Extensions
+- Logging

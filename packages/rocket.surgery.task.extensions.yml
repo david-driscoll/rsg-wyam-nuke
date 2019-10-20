@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Task.Extensions
+NuGet: Rocket.Surgery.Task.Extensions
+Assemblies:
+- /**/Rocket.Surgery.Task.Extensions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Extensions
+GitName: Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Task

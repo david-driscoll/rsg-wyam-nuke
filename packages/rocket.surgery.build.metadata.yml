@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Build.Metadata
+NuGet: Rocket.Surgery.Build.Metadata
+Assemblies:
+- /**/Rocket.Surgery.Build.Metadata.dll
+Repository: https://github.com/RocketSurgeonsGuild/Build
+GitName: Build
+GitUrl: https://github.com/RocketSurgeonsGuild/Build.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: "\r\n          * Adds ci environment based metadata to the assembly via the AssemblyMetadata attribute\r\n          * Sets version information using GitVerison variables if availalbe\r\n          * Enables sane defaults and work arounds for SourceLink support\r\n          * Ensures that JetBrains.Annotations is made available via source (and not publicly exported)\r\n          * Adds support for InternalsVisibleTo as an ItemGroup allowing you to annotate assemblies that should be able to see internals of given assembly.\r\n          * Adds support for AssemblyMetadata as an ItemGroup allowing you to set assembly metadata easily through msbuild\r\n    "
+Categories:
+- Build
+- Metadata

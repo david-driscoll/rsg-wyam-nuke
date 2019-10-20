@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.ReactiveUI.ViewModels
+NuGet: Rocket.Surgery.ReactiveUI.ViewModels
+Assemblies:
+- /**/Rocket.Surgery.ReactiveUI.ViewModels.dll
+Repository: https://github.com/RocketSurgeonsGuild/ReactiveUI.Abstractions
+GitName: ReactiveUI.Abstractions
+GitUrl: https://github.com/RocketSurgeonsGuild/ReactiveUI.Abstractions.git
+Author: RLittlesII
+Description: ReactiveUI base view model abstractions.
+Categories:
+- ReactiveUI.Abstractions
+- ViewModels

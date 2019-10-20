@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.Configuration
+NuGet: Rocket.Surgery.Extensions.Configuration
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Configuration.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides the ability to provide configuration to the hosted application by convention.
+Categories:
+- Configuration
+- Conventions
+- Extensions

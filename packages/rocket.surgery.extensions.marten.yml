@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.Marten
+NuGet: Rocket.Surgery.Extensions.Marten
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Marten.dll
+Repository: https://github.com/RocketSurgeonsGuild/Marten.Extensions
+GitName: Marten.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Marten.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Marten

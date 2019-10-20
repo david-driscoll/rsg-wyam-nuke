@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Nuke.MsBuild
+NuGet: Rocket.Surgery.Nuke.MsBuild
+Assemblies:
+- /**/Rocket.Surgery.Nuke.MsBuild.dll
+Repository: https://github.com/RocketSurgeonsGuild/Nuke
+GitName: Nuke
+GitUrl: https://github.com/RocketSurgeonsGuild/Nuke.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- MsBuild
+- Nuke

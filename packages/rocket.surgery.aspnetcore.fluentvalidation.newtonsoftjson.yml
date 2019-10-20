@@ -1,0 +1,14 @@
+Name: Rocket.Surgery.AspNetCore.FluentValidation.NewtonsoftJson
+NuGet: Rocket.Surgery.AspNetCore.FluentValidation.NewtonsoftJson
+Assemblies:
+- /**/Rocket.Surgery.AspNetCore.FluentValidation.NewtonsoftJson.dll
+Repository: https://github.com/RocketSurgeonsGuild/FluentValidation.Extensions
+GitName: FluentValidation.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/FluentValidation.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- AspNetCore
+- Extensions
+- FluentValidation
+- NewtonsoftJson

@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Hosting.Functions
+NuGet: Rocket.Surgery.Hosting.Functions
+Assemblies:
+- /**/Rocket.Surgery.Hosting.Functions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds helpers to easily bootstrap into a webjobs or azure functions application by just using the correct extension method.  This adds additional configuration, logging and service injections by convention.
+Categories:
+- Conventions
+- Functions
+- Hosting

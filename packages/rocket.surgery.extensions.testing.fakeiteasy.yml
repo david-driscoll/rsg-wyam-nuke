@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.Testing.FakeItEasy
+NuGet: Rocket.Surgery.Extensions.Testing.FakeItEasy
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Testing.FakeItEasy.dll
+Repository: https://github.com/RocketSurgeonsGuild/Testing
+GitName: Testing
+GitUrl: https://github.com/RocketSurgeonsGuild/Testing.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- FakeItEasy
+- Testing

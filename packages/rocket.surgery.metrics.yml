@@ -1,0 +1,11 @@
+Name: Rocket.Surgery.Metrics
+NuGet: Rocket.Surgery.Metrics
+Assemblies:
+- /**/Rocket.Surgery.Metrics.dll
+Repository: https://github.com/RocketSurgeonsGuild/Metrics
+GitName: Metrics
+GitUrl: https://github.com/RocketSurgeonsGuild/Metrics.git
+Author: David Driscoll
+Description: Package Description
+Categories:
+- Metrics

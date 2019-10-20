@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Linq.Extensions
+NuGet: Rocket.Surgery.Linq.Extensions
+Assemblies:
+- /**/Rocket.Surgery.Linq.Extensions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Extensions
+GitName: Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Linq

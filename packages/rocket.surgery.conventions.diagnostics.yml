@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Conventions.Diagnostics
+NuGet: Rocket.Surgery.Conventions.Diagnostics
+Assemblies:
+- /**/Rocket.Surgery.Conventions.Diagnostics.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds diagnostics command line utilities for diagnosing what conventions are available to be run
+Categories:
+- Conventions
+- Diagnostics

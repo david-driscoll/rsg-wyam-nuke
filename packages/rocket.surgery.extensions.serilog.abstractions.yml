@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.Serilog.Abstractions
+NuGet: Rocket.Surgery.Extensions.Serilog.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Serilog.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Serilog.Extensions
+GitName: Serilog.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Serilog.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Abstractions
+- Extensions
+- Serilog

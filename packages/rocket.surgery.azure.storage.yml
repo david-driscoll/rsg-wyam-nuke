@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Azure.Storage
+NuGet: Rocket.Surgery.Azure.Storage
+Assemblies:
+- /**/Rocket.Surgery.Azure.Storage.dll
+Repository: https://github.com/RocketSurgeonsGuild/Azure
+GitName: Azure
+GitUrl: https://github.com/RocketSurgeonsGuild/Azure.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Azure
+- Storage

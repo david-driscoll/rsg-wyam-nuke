@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Conventions.TestHost
+NuGet: Rocket.Surgery.Conventions.TestHost
+Assemblies:
+- /**/Rocket.Surgery.Conventions.TestHost.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides a ConventionHostBuilder that can be used during unit tests or anywhere else you wouldn't bootstrap an entire application
+Categories:
+- Conventions
+- TestHost

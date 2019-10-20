@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.FluentValidation
+NuGet: Rocket.Surgery.Extensions.FluentValidation
+Assemblies:
+- /**/Rocket.Surgery.Extensions.FluentValidation.dll
+Repository: https://github.com/RocketSurgeonsGuild/FluentValidation.Extensions
+GitName: FluentValidation.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/FluentValidation.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- FluentValidation

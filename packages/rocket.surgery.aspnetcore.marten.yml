@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.AspNetCore.Marten
+NuGet: Rocket.Surgery.AspNetCore.Marten
+Assemblies:
+- /**/Rocket.Surgery.AspNetCore.Marten.dll
+Repository: https://github.com/RocketSurgeonsGuild/Marten.Extensions
+GitName: Marten.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Marten.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- AspNetCore
+- Extensions
+- Marten

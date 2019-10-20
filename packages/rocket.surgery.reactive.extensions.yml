@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Reactive.Extensions
+NuGet: Rocket.Surgery.Reactive.Extensions
+Assemblies:
+- /**/Rocket.Surgery.Reactive.Extensions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Extensions
+GitName: Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Reactive

@@ -1,0 +1,11 @@
+Name: Rocket.Surgery.Xamarin.Essentials
+NuGet: Rocket.Surgery.Xamarin.Essentials
+Assemblies:
+- /**/Rocket.Surgery.Xamarin.Essentials.dll
+Repository: https://github.com/RocketSurgeonsGuild/Essentials
+GitName: Essentials
+GitUrl: https://github.com/RocketSurgeonsGuild/Essentials.git
+Author: Rodney Littles, II
+Description: Decorators for Xamarin.Essentials
+Categories:
+- Essentials

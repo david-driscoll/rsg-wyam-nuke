@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.Autofac.Abstractions
+NuGet: Rocket.Surgery.Extensions.Autofac.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Autofac.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Autofac.Extensions
+GitName: Autofac.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Autofac.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides Autofac support for a Rocket Surgery Application
+Categories:
+- Abstractions
+- Autofac
+- Extensions

@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.MediatR
+NuGet: Rocket.Surgery.Extensions.MediatR
+Assemblies:
+- /**/Rocket.Surgery.Extensions.MediatR.dll
+Repository: https://github.com/RocketSurgeonsGuild/MediatR.Extensions
+GitName: MediatR.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/MediatR.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- MediatR

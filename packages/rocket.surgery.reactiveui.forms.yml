@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.ReactiveUI.Forms
+NuGet: Rocket.Surgery.ReactiveUI.Forms
+Assemblies:
+- /**/Rocket.Surgery.ReactiveUI.Forms.dll
+Repository: https://github.com/RocketSurgeonsGuild/ReactiveUI.Abstractions
+GitName: ReactiveUI.Abstractions
+GitUrl: https://github.com/RocketSurgeonsGuild/ReactiveUI.Abstractions.git
+Author: RLittlesII
+Description: ReactiveUI base abstractions for Xamarin Forms.
+Categories:
+- Forms
+- ReactiveUI.Abstractions

@@ -1,0 +1,14 @@
+Name: Rocket.Surgery.Extensions.App.Metrics.Abstractions
+NuGet: Rocket.Surgery.Extensions.App.Metrics.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.App.Metrics.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/App.Metrics.Extensions
+GitName: App.Metrics.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/App.Metrics.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Abstractions
+- App.Metrics
+- Extensions
+- Metrics

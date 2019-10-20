@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Cake.Scripts
+NuGet: Rocket.Surgery.Cake.Scripts
+Assemblies:
+- /**/Rocket.Surgery.Cake.Scripts.dll
+Repository: https://github.com/RocketSurgeonsGuild/Cake
+GitName: Cake
+GitUrl: https://github.com/RocketSurgeonsGuild/Cake.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Cake
+- Scripts

@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.Testing
+NuGet: Rocket.Surgery.Extensions.Testing
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Testing.dll
+Repository: https://github.com/RocketSurgeonsGuild/Testing
+GitName: Testing
+GitUrl: https://github.com/RocketSurgeonsGuild/Testing.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Testing

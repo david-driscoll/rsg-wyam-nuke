@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.AutoMapper
+NuGet: Rocket.Surgery.Extensions.AutoMapper
+Assemblies:
+- /**/Rocket.Surgery.Extensions.AutoMapper.dll
+Repository: https://github.com/RocketSurgeonsGuild/AutoMapper.Extensions
+GitName: AutoMapper.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/AutoMapper.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides AutoMapper support for a Rocket Surgery Application
+Categories:
+- AutoMapper
+- Extensions

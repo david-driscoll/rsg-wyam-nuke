@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Automation.Postgres
+NuGet: Rocket.Surgery.Automation.Postgres
+Assemblies:
+- /**/Rocket.Surgery.Automation.Postgres.dll
+Repository: https://github.com/RocketSurgeonsGuild/AutomationCompanion
+GitName: AutomationCompanion
+GitUrl: https://github.com/RocketSurgeonsGuild/AutomationCompanion.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- AutomationCompanion
+- Postgres

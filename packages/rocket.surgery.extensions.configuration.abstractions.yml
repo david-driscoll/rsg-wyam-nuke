@@ -1,0 +1,14 @@
+Name: Rocket.Surgery.Extensions.Configuration.Abstractions
+NuGet: Rocket.Surgery.Extensions.Configuration.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Configuration.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides the ability to provide configuration to the hosted application by convention.
+Categories:
+- Abstractions
+- Configuration
+- Conventions
+- Extensions

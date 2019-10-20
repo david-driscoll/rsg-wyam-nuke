@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.App.Metrics
+NuGet: Rocket.Surgery.Extensions.App.Metrics
+Assemblies:
+- /**/Rocket.Surgery.Extensions.App.Metrics.dll
+Repository: https://github.com/RocketSurgeonsGuild/App.Metrics.Extensions
+GitName: App.Metrics.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/App.Metrics.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- App.Metrics
+- Extensions
+- Metrics

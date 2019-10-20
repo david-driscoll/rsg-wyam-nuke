@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.CommandLine
+NuGet: Rocket.Surgery.Extensions.CommandLine
+Assemblies:
+- /**/Rocket.Surgery.Extensions.CommandLine.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides the ability to provide additional commands to the hosted application by convention.
+Categories:
+- CommandLine
+- Conventions
+- Extensions

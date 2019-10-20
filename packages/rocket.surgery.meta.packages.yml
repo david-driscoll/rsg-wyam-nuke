@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Meta.Packages
+NuGet: Rocket.Surgery.Meta.Packages
+Assemblies:
+- /**/Rocket.Surgery.Meta.Packages.dll
+Repository: https://github.com/RocketSurgeonsGuild/Meta
+GitName: Meta
+GitUrl: https://github.com/RocketSurgeonsGuild/Meta.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: "\r\n    Provides an MSBuild Sdk that allows you to not have to include all the dependencies in your project.\r\n    Instead based on the properties defined implicit PackageReference items will be added, with the intention that the version will be managed else where using a PackageReference Update\r\n    "
+Categories:
+- Meta
+- Packages

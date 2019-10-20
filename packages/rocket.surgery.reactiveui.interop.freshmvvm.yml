@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.ReactiveUI.Interop.FreshMvvm
+NuGet: Rocket.Surgery.ReactiveUI.Interop.FreshMvvm
+Assemblies:
+- /**/Rocket.Surgery.ReactiveUI.Interop.FreshMvvm.dll
+Repository: https://github.com/RocketSurgeonsGuild/ReactiveUI.Interop
+GitName: ReactiveUI.Interop
+GitUrl: https://github.com/RocketSurgeonsGuild/ReactiveUI.Interop.git
+Author: RLittlesII
+Description: Package Description
+Categories:
+- FreshMvvm
+- ReactiveUI.Interop

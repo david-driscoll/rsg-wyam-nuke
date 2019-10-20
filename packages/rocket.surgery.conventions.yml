@@ -1,0 +1,11 @@
+Name: Rocket.Surgery.Conventions
+NuGet: Rocket.Surgery.Conventions
+Assemblies:
+- /**/Rocket.Surgery.Conventions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds support for loading configuration, services, logging, command line and more via simple and easy to setup assembly attributes
+Categories:
+- Conventions

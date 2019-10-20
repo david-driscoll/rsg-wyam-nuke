@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Hosting.Autofac
+NuGet: Rocket.Surgery.Hosting.Autofac
+Assemblies:
+- /**/Rocket.Surgery.Hosting.Autofac.dll
+Repository: https://github.com/RocketSurgeonsGuild/Autofac.Extensions
+GitName: Autofac.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Autofac.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Provides Autofac support for a Rocket Surgery Application, converts the default service provider into an autofac based one
+Categories:
+- Autofac
+- Extensions
+- Hosting

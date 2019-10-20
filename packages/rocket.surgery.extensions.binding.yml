@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.Binding
+NuGet: Rocket.Surgery.Extensions.Binding
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Binding.dll
+Repository: https://github.com/RocketSurgeonsGuild/Extensions
+GitName: Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Binding
+- Extensions

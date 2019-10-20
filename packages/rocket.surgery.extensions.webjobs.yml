@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.WebJobs
+NuGet: Rocket.Surgery.Extensions.WebJobs
+Assemblies:
+- /**/Rocket.Surgery.Extensions.WebJobs.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds support for configuring web jobs to the hosted application by convention.
+Categories:
+- Conventions
+- Extensions
+- WebJobs

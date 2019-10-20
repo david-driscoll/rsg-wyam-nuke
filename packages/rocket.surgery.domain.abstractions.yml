@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Domain.Abstractions
+NuGet: Rocket.Surgery.Domain.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Domain.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Domain
+GitName: Domain
+GitUrl: https://github.com/RocketSurgeonsGuild/Domain.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Abstractions
+- Domain

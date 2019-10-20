@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Build.Information
+NuGet: Rocket.Surgery.Build.Information
+Assemblies:
+- /**/Rocket.Surgery.Build.Information.dll
+Repository: https://github.com/RocketSurgeonsGuild/Build
+GitName: Build
+GitUrl: https://github.com/RocketSurgeonsGuild/Build.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Includes classes to extract GitVersion and other assembly information from any assembly that has been built with the Rocket.Surgery.Build.Metadata package.
+Categories:
+- Build
+- Information

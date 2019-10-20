@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Metrics.Abstractions
+NuGet: Rocket.Surgery.Metrics.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Metrics.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Metrics
+GitName: Metrics
+GitUrl: https://github.com/RocketSurgeonsGuild/Metrics.git
+Author: David Driscoll
+Description: Package Description
+Categories:
+- Abstractions
+- Metrics

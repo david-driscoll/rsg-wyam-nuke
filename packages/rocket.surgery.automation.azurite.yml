@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Automation.Azurite
+NuGet: Rocket.Surgery.Automation.Azurite
+Assemblies:
+- /**/Rocket.Surgery.Automation.Azurite.dll
+Repository: https://github.com/RocketSurgeonsGuild/AutomationCompanion
+GitName: AutomationCompanion
+GitUrl: https://github.com/RocketSurgeonsGuild/AutomationCompanion.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- AutomationCompanion
+- Azurite

@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Hosting
+NuGet: Rocket.Surgery.Hosting
+Assemblies:
+- /**/Rocket.Surgery.Hosting.dll
+Repository: https://github.com/RocketSurgeonsGuild/Conventions
+GitName: Conventions
+GitUrl: https://github.com/RocketSurgeonsGuild/Conventions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Adds helpers to easily bootstrap an application using conventions by just using the correct extension method.  This adds command line operations, additional configuration, logging and service injections by convention.
+Categories:
+- Conventions
+- Hosting

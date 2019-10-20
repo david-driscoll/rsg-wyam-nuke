@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Extensions.Serilog
+NuGet: Rocket.Surgery.Extensions.Serilog
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Serilog.dll
+Repository: https://github.com/RocketSurgeonsGuild/Serilog.Extensions
+GitName: Serilog.Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Serilog.Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Extensions
+- Serilog

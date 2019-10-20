@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Nuke.AzureDevOps
+NuGet: Rocket.Surgery.Nuke.AzureDevOps
+Assemblies:
+- /**/Rocket.Surgery.Nuke.AzureDevOps.dll
+Repository: https://github.com/RocketSurgeonsGuild/Nuke
+GitName: Nuke
+GitUrl: https://github.com/RocketSurgeonsGuild/Nuke.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- AzureDevOps
+- Nuke

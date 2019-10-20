@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Extensions.Abstractions
+NuGet: Rocket.Surgery.Extensions.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Extensions.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Extensions
+GitName: Extensions
+GitUrl: https://github.com/RocketSurgeonsGuild/Extensions.git
+Author: David Driscoll,Rocket Surgeons Guild contributors
+Description: Package Description
+Categories:
+- Abstractions
+- Extensions
+- Surgery

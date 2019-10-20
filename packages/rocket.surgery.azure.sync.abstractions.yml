@@ -1,0 +1,13 @@
+Name: Rocket.Surgery.Azure.Sync.Abstractions
+NuGet: Rocket.Surgery.Azure.Sync.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Azure.Sync.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Azure.Offline.Sync
+GitName: Azure.Offline.Sync
+GitUrl: https://github.com/RocketSurgeonsGuild/Azure.Offline.Sync.git
+Author: Rocket.Surgery.Azure.Sync.Abstractions
+Description: Package Description
+Categories:
+- Abstractions
+- Azure.Offline.Sync
+- Sync

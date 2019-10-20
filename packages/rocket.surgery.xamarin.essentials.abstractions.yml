@@ -1,0 +1,12 @@
+Name: Rocket.Surgery.Xamarin.Essentials.Abstractions
+NuGet: Rocket.Surgery.Xamarin.Essentials.Abstractions
+Assemblies:
+- /**/Rocket.Surgery.Xamarin.Essentials.Abstractions.dll
+Repository: https://github.com/RocketSurgeonsGuild/Essentials
+GitName: Essentials
+GitUrl: https://github.com/RocketSurgeonsGuild/Essentials.git
+Author: Rodney Littles, II
+Description: Abstractions for Xamarin.Essentials
+Categories:
+- Abstractions
+- Essentials
