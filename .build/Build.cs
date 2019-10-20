@@ -45,43 +45,45 @@ partial class Build : NukeBuild
         });
 
     Target Restore => _ => _
+        .DependsOn(RefreshPackages)
         .Executes(() =>
         {
-            // var projectDirectory = TemporaryDirectory / "_project";
-            // var packagesDirectory = TemporaryDirectory / "_packages";
-            // var project = projectDirectory / "project.csproj";
-            // EnsureExistingDirectory(projectDirectory);
-            // EnsureExistingDirectory(packagesDirectory);
-            // if (!FileExists(project))
-            // {
-            //     System.IO.File.WriteAllText(
-            //         project,
-            //         @"
-            //         <Project Sdk=""Microsoft.NET.Sdk"">
-            //             <PropertyGroup>
-            //                 <TargetFramework>netcoreapp3.0</TargetFramework>
-            //             </PropertyGroup>
-            //         </Project>"
-            //     );
-            // }
+            var projectDirectory = TemporaryDirectory / "_project";
+            var packagesDirectory = TemporaryDirectory / "_packages";
+            var project = projectDirectory / "project.csproj";
+            EnsureExistingDirectory(projectDirectory);
+            EnsureExistingDirectory(packagesDirectory);
+            if (!FileExists(project))
+            {
+                System.IO.File.WriteAllText(
+                    project,
+                    @"
+                    <Project Sdk=""Microsoft.NET.Sdk"">
+                        <PropertyGroup>
+                            <TargetFramework>netcoreapp3.0</TargetFramework>
+                        </PropertyGroup>
+                    </Project>"
+                );
 
-            // foreach (var packageSpec in PackageSpecs)
-            // {
-            //     DotNet($"add package {packageSpec.Name} --no-restore", projectDirectory);
-            // }
+                foreach (var packageSpec in PackageSpecs)
+                {
+                    DotNet($"add package {packageSpec.Name} --no-restore", projectDirectory);
+                }
+            }
 
-            // try
-            // {
-            //     DotNetRestore(x => x
-            //         .EnableNoDependencies()
-            //         .SetPackageDirectory(packagesDirectory)
-            //         .SetWorkingDirectory(projectDirectory)
-            //     );
-            // }
-            // catch { }
+            try
+            {
+                DotNetRestore(x => x
+                    .EnableNoDependencies()
+                    .SetPackageDirectory(packagesDirectory)
+                    .SetWorkingDirectory(projectDirectory)
+                );
+            }
+            catch { }
         });
 
     Target Compile => _ => _
+        .DependsOn(Restore)
         .Executes(() =>
         {
             Wyam.Common.Tracing.Trace.AddListener(new NukeTraceListener());
@@ -114,15 +116,16 @@ partial class Build : NukeBuild
 
             var clonedRepos = repos
                 .Where(repo => !repo.Archived)
+                .Where(repo => !(IsLocalBuild && DirectoryExists(TemporaryDirectory / repo.Name)))
                 .Select(repo =>
-            {
-                var path = TemporaryDirectory / repo.Name;
-                Process.Start(new ProcessStartInfo("git", $"clone --depth 1 --single-branch {repo.CloneUrl} {path }")
                 {
-                    CreateNoWindow = true
-                }).WaitForExit();
-                return (path, repo);
-            });
+                    var path = TemporaryDirectory / repo.Name;
+                    Process.Start(new ProcessStartInfo("git", $"clone --depth 1 --single-branch {repo.CloneUrl} {path }")
+                    {
+                        CreateNoWindow = true
+                    }).WaitForExit();
+                    return (path, repo);
+                });
 
             var solutions = clonedRepos.SelectMany((x =>
             {

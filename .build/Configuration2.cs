@@ -36,14 +36,16 @@ class WyamConfiguration : ConfigurationEngineBase
             .SelectMany(x => GlobFiles(NukeBuild.TemporaryDirectory / "_packages", x.TrimStart('/', '\\')))
             .Distinct()
             .Select(x => GetRelativePath(NukeBuild.RootDirectory / "input", x));
-        Logger.Info(string.Join(", ", assemblyFiles));
+        // Logger.Info(string.Join(", ", assemblyFiles));
 
-        Settings["AssemblyFiles"] = assemblyFiles;
+        Settings[DocsKeys.AssemblyFiles] = assemblyFiles;
+        // Settings[DocsKeys.SolutionFiles] = GlobFiles(NukeBuild.TemporaryDirectory, "**/*.sln")
+        //     .Select(x => GetRelativePath(NukeBuild.RootDirectory / "input", x));
 
         Settings[DocsKeys.Title] = "Rocket Surgeons Guild";
         Settings[Keys.Host] = "rocketsurgeonsguild.github.io/";
         Settings[Keys.LinksUseHttps] = true;
-        Settings[DocsKeys.SourceFiles] = "../release/repo/src/**/{!bin,!obj,!packages,!*.Tests,}/**/*.cs";
+        // Settings[DocsKeys.SourceFiles] = GetRelativePath(NukeBuild.RootDirectory / "input", NukeBuild.TemporaryDirectory).TrimEnd('/') + "/*/src/**/{!bin,!obj,!packages,!*.Tests,}/**/*.cs";
         Settings[DocsKeys.IncludeDateInPostPath] = true;
         Settings[DocsKeys.BaseEditUrl] = "https://github.com/RocketSurgeonsGuild/rocketsurgeonsguild.github.io/blob/dev/input/";
 
